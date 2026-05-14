@@ -1,0 +1,9 @@
+/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/PrakFiles.dir
+/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/install.dir
+/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/install/local.dir
+/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/PrakFiles_autogen_timestamp_deps.dir
+/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/PrakFiles_autogen.dir

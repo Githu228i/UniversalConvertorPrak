@@ -1,0 +1,21 @@
+# ninja log v5
+47	243	1778784037538812886	CMakeFiles/PrakFiles.dir/bigfraction.cpp.o	9a43a4388de54133
+31	153	1778784091169558436	build.ninja	5f3506997479d0c6
+0	27	0	/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/cmake.verify_globs	996dc3aa05a222b0
+28	44	1778784059012774031	PrakFiles_autogen/mocs_compilation.cpp	ba45c87e4647b2e7
+172	1096	1778784024529846905	CMakeFiles/PrakFiles.dir/PrakFiles_autogen/mocs_compilation.cpp.o	8fb9e82b1839ac40
+28	44	1778784059012774031	PrakFiles_autogen/timestamp	ba45c87e4647b2e7
+45	903	1778784059872772916	CMakeFiles/PrakFiles.dir/mainwindow.cpp.o	54ee77e693f1c976
+28	44	1778784059012774031	/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/PrakFiles_autogen/timestamp	ba45c87e4647b2e7
+28	44	1778784059012774031	/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/PrakFiles_autogen/mocs_compilation.cpp	ba45c87e4647b2e7
+903	1082	1778784060049772689	PrakFiles	7cb80d30edbe9484
+172	1139	1778784024572846779	CMakeFiles/PrakFiles.dir/main.cpp.o	71e4807ab934245f
+0	32	0	/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/cmake.verify_globs	996dc3aa05a222b0
+33	54	1778784109884763371	PrakFiles_autogen/timestamp	ba45c87e4647b2e7
+33	54	1778784109884763371	PrakFiles_autogen/mocs_compilation.cpp	ba45c87e4647b2e7
+33	54	1778784109884763371	/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/PrakFiles_autogen/timestamp	ba45c87e4647b2e7
+33	54	1778784109884763371	/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/PrakFiles_autogen/mocs_compilation.cpp	ba45c87e4647b2e7
+55	259	1778784110089763548	CMakeFiles/PrakFiles.dir/bigfraction.cpp.o	9a43a4388de54133
+55	1050	1778784110878764250	CMakeFiles/PrakFiles.dir/mainwindow.cpp.o	54ee77e693f1c976
+1050	1280	1778784111108764459	PrakFiles	6650243ce91826a9
+1	38	0	/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/cmake.verify_globs	996dc3aa05a222b0
