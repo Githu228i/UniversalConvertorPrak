@@ -42,6 +42,7 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/vladimir/projects/UniversalConverter/PrakFiles/*.cpp")
 set(OLD_GLOB
   "/home/vladimir/projects/UniversalConverter/PrakFiles/bigfraction.cpp"
+  "/home/vladimir/projects/UniversalConverter/PrakFiles/biginteger.cpp"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/3.28.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/PrakFiles_autogen/EWIEGA46WW/moc_mainwindow.cpp"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/PrakFiles_autogen/mocs_compilation.cpp"
@@ -66,6 +67,7 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/vladimir/projects/UniversalConverter/PrakFiles/*.h")
 set(OLD_GLOB
   "/home/vladimir/projects/UniversalConverter/PrakFiles/bigfraction.h"
+  "/home/vladimir/projects/UniversalConverter/PrakFiles/biginteger.h"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/PrakFiles_autogen/include/ui_mainwindow.h"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/PrakFiles_autogen/moc_predefs.h"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/mainwindow.h"

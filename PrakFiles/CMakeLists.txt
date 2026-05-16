@@ -27,6 +27,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         bigfraction.h bigfraction.cpp
+        biginteger.h biginteger.cpp
 
     )
 # Define target properties for Android with Qt 6 as:

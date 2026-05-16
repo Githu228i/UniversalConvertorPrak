@@ -412,4 +412,6 @@
  mdp:/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h
  mdp:/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h
  mdp:/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+/home/vladimir/projects/UniversalConverter/PrakFiles/biginteger.cpp
 /home/vladimir/projects/UniversalConverter/PrakFiles/bigfraction.h
+/home/vladimir/projects/UniversalConverter/PrakFiles/biginteger.h

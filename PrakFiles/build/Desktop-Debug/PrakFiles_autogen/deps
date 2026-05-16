@@ -2,6 +2,8 @@ PrakFiles_autogen/timestamp: \
 	/home/vladimir/projects/UniversalConverter/PrakFiles/CMakeLists.txt \
 	/home/vladimir/projects/UniversalConverter/PrakFiles/bigfraction.cpp \
 	/home/vladimir/projects/UniversalConverter/PrakFiles/bigfraction.h \
+	/home/vladimir/projects/UniversalConverter/PrakFiles/biginteger.cpp \
+	/home/vladimir/projects/UniversalConverter/PrakFiles/biginteger.h \
 	/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/.qtc/package-manager/auto-setup.cmake \
 	/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
 	/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/3.28.3/CMakeSystem.cmake \

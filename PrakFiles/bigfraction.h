@@ -1,7 +1,7 @@
 #pragma once
 #include <exception>
 #include <iostream>
-#include<algorithm>
+#include <algorithm>
 
 int gcd1(int first_number, int second_number) {
     if (second_number == 0) return first_number;
