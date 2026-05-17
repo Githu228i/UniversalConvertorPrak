@@ -162,7 +162,7 @@ BigInteger BigInteger::operator*(const int & other) const {
 
 BigInteger& BigInteger::operator*=(const int& other){
     *this = *this * other;
-        return *this;
+    return *this;
 }
 
 BigInteger BigInteger::operator*(const BigInteger& other) const {
@@ -181,6 +181,11 @@ BigInteger BigInteger::operator*(const BigInteger& other) const {
     }
     res.Normalization();
     return res;
+}
+
+BigInteger& BigInteger::operator*=(const BigInteger& other) {
+    *this = *this * other;
+    return *this;
 }
 
 BigInteger Karacuba(const BigInteger& lhs, const BigInteger& rhs) {
