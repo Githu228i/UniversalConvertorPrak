@@ -229,6 +229,18 @@
 			null
 		],
 		[
+			"/home/vladimir/projects/UniversalConverter/PrakFiles/digittokenizer.h",
+			"MU",
+			"EWIEGA46WW/moc_digittokenizer.cpp",
+			null
+		],
+		[
+			"/home/vladimir/projects/UniversalConverter/PrakFiles/inputvalidator.h",
+			"MU",
+			"EWIEGA46WW/moc_inputvalidator.cpp",
+			null
+		],
+		[
 			"/home/vladimir/projects/UniversalConverter/PrakFiles/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -300,6 +312,16 @@
 		],
 		[
 			"/home/vladimir/projects/UniversalConverter/PrakFiles/biginteger.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/vladimir/projects/UniversalConverter/PrakFiles/digittokenizer.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/vladimir/projects/UniversalConverter/PrakFiles/inputvalidator.cpp",
 			"MU",
 			null
 		],

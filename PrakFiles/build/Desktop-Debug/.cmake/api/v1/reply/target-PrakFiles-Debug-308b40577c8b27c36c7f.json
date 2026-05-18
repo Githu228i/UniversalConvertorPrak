@@ -71,13 +71,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 71,
+				"line" : 74,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 54,
+				"line" : 57,
 				"parent" : 0
 			},
 			{
@@ -285,7 +285,10 @@
 				0,
 				1,
 				2,
-				7
+				7,
+				9,
+				11,
+				13
 			]
 		}
 	],
@@ -370,7 +373,10 @@
 				0,
 				1,
 				2,
-				7
+				7,
+				9,
+				11,
+				13
 			]
 		},
 		{
@@ -379,7 +385,10 @@
 			[
 				3,
 				6,
-				8
+				8,
+				10,
+				12,
+				14
 			]
 		},
 		{
@@ -388,14 +397,14 @@
 			[
 				4,
 				5,
-				9
+				15
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				10
+				16
 			]
 		}
 	],
@@ -444,6 +453,39 @@
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
 			"path" : "bigfraction.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "biginteger.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "biginteger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "inputvalidator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "inputvalidator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "digittokenizer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "digittokenizer.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

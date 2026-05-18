@@ -46,6 +46,8 @@ set(OLD_GLOB
   "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/3.28.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/PrakFiles_autogen/EWIEGA46WW/moc_mainwindow.cpp"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/PrakFiles_autogen/mocs_compilation.cpp"
+  "/home/vladimir/projects/UniversalConverter/PrakFiles/digittokenizer.cpp"
+  "/home/vladimir/projects/UniversalConverter/PrakFiles/inputvalidator.cpp"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/main.cpp"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/mainwindow.cpp"
   )
@@ -70,6 +72,8 @@ set(OLD_GLOB
   "/home/vladimir/projects/UniversalConverter/PrakFiles/biginteger.h"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/PrakFiles_autogen/include/ui_mainwindow.h"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/PrakFiles_autogen/moc_predefs.h"
+  "/home/vladimir/projects/UniversalConverter/PrakFiles/digittokenizer.h"
+  "/home/vladimir/projects/UniversalConverter/PrakFiles/inputvalidator.h"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/mainwindow.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

@@ -8,6 +8,10 @@ PrakFiles_autogen/timestamp: \
   CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   CMakeFiles/3.28.3/CMakeSystem.cmake \
   PrakFiles_autogen/moc_predefs.h \
+  /home/vladimir/projects/UniversalConverter/PrakFiles/digittokenizer.cpp \
+  /home/vladimir/projects/UniversalConverter/PrakFiles/digittokenizer.h \
+  /home/vladimir/projects/UniversalConverter/PrakFiles/inputvalidator.cpp \
+  /home/vladimir/projects/UniversalConverter/PrakFiles/inputvalidator.h \
   /home/vladimir/projects/UniversalConverter/PrakFiles/main.cpp \
   /home/vladimir/projects/UniversalConverter/PrakFiles/mainwindow.cpp \
   /home/vladimir/projects/UniversalConverter/PrakFiles/mainwindow.h \

@@ -2,6 +2,7 @@
 /home/vladimir/projects/UniversalConverter/PrakFiles/mainwindow.cpp
  uic:./ui_mainwindow.h
 /home/vladimir/projects/UniversalConverter/PrakFiles/main.cpp
+/home/vladimir/projects/UniversalConverter/PrakFiles/inputvalidator.cpp
 /home/vladimir/projects/UniversalConverter/PrakFiles/bigfraction.cpp
 /home/vladimir/projects/UniversalConverter/PrakFiles/mainwindow.h
  mmc:Q_OBJECT
@@ -415,3 +416,6 @@
 /home/vladimir/projects/UniversalConverter/PrakFiles/biginteger.cpp
 /home/vladimir/projects/UniversalConverter/PrakFiles/bigfraction.h
 /home/vladimir/projects/UniversalConverter/PrakFiles/biginteger.h
+/home/vladimir/projects/UniversalConverter/PrakFiles/digittokenizer.h
+/home/vladimir/projects/UniversalConverter/PrakFiles/inputvalidator.h
+/home/vladimir/projects/UniversalConverter/PrakFiles/digittokenizer.cpp

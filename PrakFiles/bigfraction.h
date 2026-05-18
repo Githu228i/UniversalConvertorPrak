@@ -25,15 +25,20 @@ public:
 
     explicit BigFraction(BigInteger num) : num_(num), den_(1) {} // CONSTRUCTOR INT
 
-    BigFraction(const BigFraction& other) { // CONSTRUCTOR COPY
-        num_ = other.num_;
-        den_ = other.den_;
-    }
+    BigFraction(const BigFraction& other) : num_(other.num_), den_(other.den_) {} // COPY CTOR
 
     ~BigFraction() = default; // DESTRUCTOR DEFAULT
 
     const BigInteger& num() const { return num_; } // GETTER NUM
     const BigInteger& den() const { return den_; } // GETTER DEN
+
+    BigInteger GetWholePart() {
+        return num_ / den_;
+    }
+
+    BigFraction GetRemainder() {
+        return BigFraction(num_ % den_ ,den_);
+    }
 
     BigFraction& operator=(const BigFraction& other) { // EQUAL =
         num_ = other.num_;

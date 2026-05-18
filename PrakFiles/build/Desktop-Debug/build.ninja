@@ -89,6 +89,22 @@ build CMakeFiles/PrakFiles.dir/biginteger.cpp.o: CXX_COMPILER__PrakFiles_unscann
   OBJECT_DIR = CMakeFiles/PrakFiles.dir
   OBJECT_FILE_DIR = CMakeFiles/PrakFiles.dir
 
+build CMakeFiles/PrakFiles.dir/inputvalidator.cpp.o: CXX_COMPILER__PrakFiles_unscanned_Debug /home/vladimir/projects/UniversalConverter/PrakFiles/inputvalidator.cpp || cmake_object_order_depends_target_PrakFiles
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/PrakFiles.dir/inputvalidator.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/PrakFiles_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui
+  OBJECT_DIR = CMakeFiles/PrakFiles.dir
+  OBJECT_FILE_DIR = CMakeFiles/PrakFiles.dir
+
+build CMakeFiles/PrakFiles.dir/digittokenizer.cpp.o: CXX_COMPILER__PrakFiles_unscanned_Debug /home/vladimir/projects/UniversalConverter/PrakFiles/digittokenizer.cpp || cmake_object_order_depends_target_PrakFiles
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/PrakFiles.dir/digittokenizer.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/PrakFiles_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui
+  OBJECT_DIR = CMakeFiles/PrakFiles.dir
+  OBJECT_FILE_DIR = CMakeFiles/PrakFiles.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target PrakFiles
@@ -97,7 +113,7 @@ build CMakeFiles/PrakFiles.dir/biginteger.cpp.o: CXX_COMPILER__PrakFiles_unscann
 #############################################
 # Link the executable PrakFiles
 
-build PrakFiles: CXX_EXECUTABLE_LINKER__PrakFiles_Debug CMakeFiles/PrakFiles.dir/PrakFiles_autogen/mocs_compilation.cpp.o CMakeFiles/PrakFiles.dir/main.cpp.o CMakeFiles/PrakFiles.dir/mainwindow.cpp.o CMakeFiles/PrakFiles.dir/bigfraction.cpp.o CMakeFiles/PrakFiles.dir/biginteger.cpp.o | /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2 /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2 /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so || PrakFiles_autogen PrakFiles_autogen_timestamp_deps
+build PrakFiles: CXX_EXECUTABLE_LINKER__PrakFiles_Debug CMakeFiles/PrakFiles.dir/PrakFiles_autogen/mocs_compilation.cpp.o CMakeFiles/PrakFiles.dir/main.cpp.o CMakeFiles/PrakFiles.dir/mainwindow.cpp.o CMakeFiles/PrakFiles.dir/bigfraction.cpp.o CMakeFiles/PrakFiles.dir/biginteger.cpp.o CMakeFiles/PrakFiles.dir/inputvalidator.cpp.o CMakeFiles/PrakFiles.dir/digittokenizer.cpp.o | /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2 /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2 /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so || PrakFiles_autogen PrakFiles_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2  /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2  /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so
   OBJECT_DIR = CMakeFiles/PrakFiles.dir
