@@ -93,6 +93,28 @@ BigInteger BigInteger::GetBegin(int val) const {
     return res;
 }
 
+size_t BigInteger::GetSize() {
+    return value.size();
+}
+
+int BigInteger::BasePow() {
+    return BASE_POW;
+}
+
+int& BigInteger::operator[](size_t val) {
+    if (val >= value.size()) {
+        throw std::out_of_range("BigInteger index out of range");
+    }
+    return value[val];
+}
+
+const int& BigInteger::operator[](size_t val) const {
+    if (val >= value.size()) {
+        throw std::out_of_range("BigInteger index out of range");
+    }
+    return value[val];
+}
+
 BigInteger BigInteger::operator+(const BigInteger& other) const {
     BigInteger res;
     int trans = 0;
@@ -231,18 +253,18 @@ BigInteger& BigInteger::operator/=(const int& other) {
     return *this;
 }
 
-BigInteger BigInteger::operator%(const int& other) const {
+int BigInteger::operator%(const int& other) const {
     if (other == 0) throw std::invalid_argument("Error! Devision by zero");
     long long trans = 0;
     for (int i = value.size() - 1; i >= 0; --i) {
         trans = (value[i] + trans * BASE) % other;
     }
-    return BigInteger(trans);
+    return trans;
 }
 
-BigInteger& BigInteger::operator%=(const int& other) {
+int& BigInteger::operator%=(const int& other) {
     *this = *this % other;
-    return *this;
+    return value[0];
 }
 
 BigInteger BigInteger::operator/(const BigInteger& other) const {

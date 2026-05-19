@@ -3,6 +3,8 @@
 
 #include "biginteger.h"
 
+#include <QDebug>
+
 // int gcd1(int first_number, int second_number) {
 //     if (second_number == 0) return first_number;
 //     return gcd1(second_number, first_number % second_number);
@@ -323,6 +325,7 @@ public:
 
     friend std::ostream& operator<<(std::ostream& out, const BigFraction& fract); // COUT
     friend std::istream& operator>>(std::istream& is, BigFraction& fract); // CIN
+    friend QDebug operator<<(QDebug out, const BigFraction& val);
 
 private:
     BigInteger num_, den_;
@@ -346,10 +349,7 @@ private:
     }
 };
 
-std::ostream& operator<<(std::ostream& out, const BigFraction& fract) {
-    out << fract.num_ << '/' << fract.den_;
-    return out;
-}
+
 
 // std::istream& operator>>(std::istream& is, BigFraction& fract) {
 //     is >> fract.num_ >> fract.den_;

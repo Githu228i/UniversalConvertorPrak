@@ -17,6 +17,10 @@ public:
     BigInteger LeftShift(int val) const;
     BigInteger GetBegin(int val) const;
     void Normalization();
+    size_t GetSize();
+    int BasePow();
+    int& operator[](size_t val);
+    const int& operator[](size_t val) const;
 
     BigInteger operator+(const BigInteger& other) const;
     BigInteger& operator+=(const BigInteger& other);
@@ -29,8 +33,8 @@ public:
     friend BigInteger Karacuba(const BigInteger& lhs, const BigInteger& rhs);
     BigInteger operator/(const int& other) const;
     BigInteger& operator/=(const int& other);
-    BigInteger operator%(const int& other) const;
-    BigInteger& operator%=(const int& other);
+    int operator%(const int& other) const;
+    int& operator%=(const int& other);
     BigInteger operator/(const BigInteger& other) const;
     BigInteger& operator/=(const BigInteger& other);
     BigInteger operator%(const BigInteger& other) const;
@@ -48,6 +52,7 @@ public:
 
     friend std::ostream& operator<<(std::ostream& out, const BigInteger& val);
     friend QDebug operator<<(QDebug out, const BigInteger& val);
+
 private:
     static const int BASE = 1000000000;
     static const int BASE_POW = 9;

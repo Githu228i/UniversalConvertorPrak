@@ -7,6 +7,9 @@
 #include "biginteger.h"
 #include "digittokenizer.h"
 #include "inputvalidator.h"
+#include "baseparser.h"
+#include "baseformatter.h"
+#include "baseconverter.h"
 #include <iostream>
 #include <QDebug>
 #include <string>
@@ -37,12 +40,13 @@ int main(int argc, char *argv[])
     //qDebug() << static_cast<int>(Karacuba(x,y) == k);
     //qDebug() << (x/y == k);
     //qDebug() << x%BigInteger("1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000");
-    DigitTokenizer token;
+    DigitTokenizer token;w.show(); BaseParser parser; BaseFormatter formatter;
     InputValidator validator;
-    std::string temp = token.CharToDigit("12[3].(1[2]3)");
+    std::string temp = token.CharToDigit("12[3]333t3[i.(1[2]3)");
     QString qstr = QString::fromStdString(temp);
-    qDebug() << validator.InputCheck(temp, 50,2);
-
-    w.show();
+    //qDebug() << validator.InputCheck(temp, 50,2);
+    //qDebug() << QString::fromStdString(formatter.FromTenthToQ(parser.FromPToTenth("[35][24][31]", 500), 488));
+    BaseConverter converter;
+    qDebug() << QString::fromStdString(converter.convert("1.2[3](4)", 12, 34));
     return a.exec();
 }

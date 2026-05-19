@@ -217,6 +217,24 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/vladimir/projects/UniversalConverter/PrakFiles/baseconverter.h",
+			"MU",
+			"EWIEGA46WW/moc_baseconverter.cpp",
+			null
+		],
+		[
+			"/home/vladimir/projects/UniversalConverter/PrakFiles/baseformatter.h",
+			"MU",
+			"EWIEGA46WW/moc_baseformatter.cpp",
+			null
+		],
+		[
+			"/home/vladimir/projects/UniversalConverter/PrakFiles/baseparser.h",
+			"MU",
+			"EWIEGA46WW/moc_baseparser.cpp",
+			null
+		],
+		[
 			"/home/vladimir/projects/UniversalConverter/PrakFiles/bigfraction.h",
 			"MU",
 			"EWIEGA46WW/moc_bigfraction.cpp",
@@ -305,6 +323,21 @@
 	"SETTINGS_FILE" : "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/PrakFiles_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/vladimir/projects/UniversalConverter/PrakFiles/baseconverter.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/vladimir/projects/UniversalConverter/PrakFiles/baseformatter.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/vladimir/projects/UniversalConverter/PrakFiles/baseparser.cpp",
+			"MU",
+			null
+		],
 		[
 			"/home/vladimir/projects/UniversalConverter/PrakFiles/bigfraction.cpp",
 			"MU",

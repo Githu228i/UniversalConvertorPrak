@@ -41,6 +41,9 @@ endif()
 # _directory_contents at /usr/lib/x86_64-linux-gnu/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:83 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/vladimir/projects/UniversalConverter/PrakFiles/*.cpp")
 set(OLD_GLOB
+  "/home/vladimir/projects/UniversalConverter/PrakFiles/baseconverter.cpp"
+  "/home/vladimir/projects/UniversalConverter/PrakFiles/baseformatter.cpp"
+  "/home/vladimir/projects/UniversalConverter/PrakFiles/baseparser.cpp"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/bigfraction.cpp"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/biginteger.cpp"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/3.28.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
@@ -68,6 +71,9 @@ endif()
 # _directory_contents at /usr/lib/x86_64-linux-gnu/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:83 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/vladimir/projects/UniversalConverter/PrakFiles/*.h")
 set(OLD_GLOB
+  "/home/vladimir/projects/UniversalConverter/PrakFiles/baseconverter.h"
+  "/home/vladimir/projects/UniversalConverter/PrakFiles/baseformatter.h"
+  "/home/vladimir/projects/UniversalConverter/PrakFiles/baseparser.h"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/bigfraction.h"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/biginteger.h"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/PrakFiles_autogen/include/ui_mainwindow.h"

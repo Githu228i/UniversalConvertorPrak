@@ -30,6 +30,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         biginteger.h biginteger.cpp
         inputvalidator.h inputvalidator.cpp
         digittokenizer.h digittokenizer.cpp
+        baseparser.h baseparser.cpp
+        baseformatter.h baseformatter.cpp
+        baseconverter.h baseconverter.cpp
 
     )
 # Define target properties for Android with Qt 6 as:

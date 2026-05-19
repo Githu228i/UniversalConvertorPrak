@@ -2,6 +2,7 @@
 
 #include <QString>
 #include <QDebug>
+#include <QMessageBox>
 
 InputValidator::InputValidator() {
     SquareOpen = false;
@@ -19,6 +20,12 @@ InputValidator::InputValidator() {
 
 void InputValidator::ShowError(std::string message) {
     qDebug() << QString::fromStdString(message);
+    QMessageBox msgBox;
+    msgBox.setWindowTitle("Ошибка");
+    msgBox.setText(QString::fromStdString(message));
+    msgBox.setIcon(QMessageBox::Critical);
+
+    msgBox.exec();
 };
 
 bool InputValidator::InputCheck(std::string input, double p, double q) {

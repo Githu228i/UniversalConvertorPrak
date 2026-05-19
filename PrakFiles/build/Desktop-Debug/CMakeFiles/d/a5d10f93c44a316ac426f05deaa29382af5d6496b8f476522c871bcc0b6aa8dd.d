@@ -1,5 +1,11 @@
 PrakFiles_autogen/timestamp: \
   /home/vladimir/projects/UniversalConverter/PrakFiles/CMakeLists.txt \
+  /home/vladimir/projects/UniversalConverter/PrakFiles/baseconverter.cpp \
+  /home/vladimir/projects/UniversalConverter/PrakFiles/baseconverter.h \
+  /home/vladimir/projects/UniversalConverter/PrakFiles/baseformatter.cpp \
+  /home/vladimir/projects/UniversalConverter/PrakFiles/baseformatter.h \
+  /home/vladimir/projects/UniversalConverter/PrakFiles/baseparser.cpp \
+  /home/vladimir/projects/UniversalConverter/PrakFiles/baseparser.h \
   /home/vladimir/projects/UniversalConverter/PrakFiles/bigfraction.cpp \
   /home/vladimir/projects/UniversalConverter/PrakFiles/bigfraction.h \
   /home/vladimir/projects/UniversalConverter/PrakFiles/biginteger.cpp \
