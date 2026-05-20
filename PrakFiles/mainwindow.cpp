@@ -2,6 +2,8 @@
 #include "./ui_mainwindow.h"
 #include "baseconverter.h"
 #include <QFileDialog>
+#include <QFile>
+#include <QMessageBox>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -10,7 +12,8 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     connect(ui->ConvertBut, &QPushButton::clicked, this, &MainWindow::Convert);
     connect(ui->ReverseBut, &QPushButton::clicked, this, &MainWindow::Reverse);
-    //connect(ui->openFileButton, &QPushButton::clicked, this, &MainWindow::OpenFile);
+    connect(ui->openFileButton, &QPushButton::clicked, this, &MainWindow::OpenFile);
+    connect(ui->SaveBut, &QPushButton::clicked, this, &MainWindow::SaveInFile);
     ui->Result->setStyleSheet(
         "background-color: #2b2b2b;"
         "color: white;"
@@ -91,6 +94,67 @@ void MainWindow::Reverse()
     QString temp = ui->PEnter->text();
     ui->PEnter->setText(ui->QEnter->text());
     ui->QEnter->setText(temp);
+}
+
+void MainWindow::OpenFile()
+{
+    QString path = QFileDialog::getOpenFileName(
+        this,
+        "Выберите txt файл",
+        "",
+        "Text Files (*.txt)"
+        );
+
+    if (!path.isEmpty()) {
+
+        QFile file(path);
+
+        if (file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+
+            QTextStream in(&file);
+
+            QString text = in.readAll();
+
+            ui->DigitEnter->setPlainText(text);
+
+            file.close();
+        }
+    }
+}
+
+void MainWindow::SaveInFile()
+{
+    QString path = QFileDialog::getSaveFileName(
+        this,
+        "Сохранить файл",
+        "",
+        "Text Files (*.txt)"
+        );
+
+    if (path.isEmpty())
+        return;
+
+    QFile file(path);
+
+    if (!file.open(QIODevice::WriteOnly | QIODevice::Text)) {
+        QMessageBox::critical(
+            this,
+            "Ошибка",
+            "Не удалось открыть файл для записи:\n" + path
+            );
+        return;
+    }
+
+    QTextStream out(&file);
+    out << ui->Result->toPlainText();
+
+    file.close();
+
+    QMessageBox::information(
+        this,
+        "Успех",
+        "Файл успешно сохранён"
+        );
 }
 
 

@@ -1,5 +1,7 @@
 <RCC>
     <qresource prefix="/new/prefix1">
         <file>png-transparent-arrow-encapsulated-postscript-computer-icons-both-side-angle-triangle-monochrome-thumbnail.png</file>
+        <file>png-clipart-computer-icons-user-interface-button-save-button-rectangle-logo-thumbnail.png</file>
+        <file>png-clipart-computer-icons-save-button-miscellaneous-image-file-formats-thumbnail.png</file>
     </qresource>
 </RCC>

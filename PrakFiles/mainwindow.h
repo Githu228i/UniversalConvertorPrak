@@ -16,7 +16,8 @@ class MainWindow : public QMainWindow
 private slots:
     void Convert();
     void Reverse();
-    //void OpenFile();
+    void OpenFile();
+    void SaveInFile();
 
 public:
     MainWindow(QWidget *parent = nullptr);
