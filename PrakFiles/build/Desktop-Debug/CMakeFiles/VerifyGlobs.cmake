@@ -48,6 +48,7 @@ set(OLD_GLOB
   "/home/vladimir/projects/UniversalConverter/PrakFiles/biginteger.cpp"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/3.28.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/PrakFiles_autogen/EWIEGA46WW/moc_mainwindow.cpp"
+  "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/PrakFiles_autogen/EWIEGA46WW/qrc_Resouses.cpp"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/PrakFiles_autogen/mocs_compilation.cpp"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/digittokenizer.cpp"
   "/home/vladimir/projects/UniversalConverter/PrakFiles/inputvalidator.cpp"
@@ -162,6 +163,7 @@ endif()
 # _directory_contents at /usr/lib/x86_64-linux-gnu/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:83 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/vladimir/projects/UniversalConverter/PrakFiles/*.qrc")
 set(OLD_GLOB
+  "/home/vladimir/projects/UniversalConverter/PrakFiles/Resouses.qrc"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

@@ -1,0 +1,23 @@
+{
+	"BUILD_DIR" : "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/PrakFiles_autogen",
+	"CMAKE_BINARY_DIR" : "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/vladimir/projects/UniversalConverter/PrakFiles",
+	"CMAKE_SOURCE_DIR" : "/home/vladimir/projects/UniversalConverter/PrakFiles",
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/PrakFiles_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/vladimir/projects/UniversalConverter/PrakFiles/png-transparent-arrow-encapsulated-postscript-computer-icons-both-side-angle-triangle-monochrome-thumbnail.png"
+	],
+	"LOCK_FILE" : "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/PrakFiles_autogen.dir/AutoRcc_Resouses_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "Resouses" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_Resouses.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/vladimir/projects/UniversalConverter/PrakFiles/build/Desktop-Debug/CMakeFiles/PrakFiles_autogen.dir/AutoRcc_Resouses_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/vladimir/projects/UniversalConverter/PrakFiles/Resouses.qrc",
+	"VERBOSITY" : 0
+}

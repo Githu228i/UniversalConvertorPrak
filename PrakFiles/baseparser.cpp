@@ -99,5 +99,6 @@ BigFraction BaseParser::FromPToTenth(std::string digit, int p) {
         period *= BigFraction(1, PowPRat);
         rational = RationalToTenth(rationalStr, p);
     }
+    qDebug() << "parser ";
     return whole + rational + period;
 }

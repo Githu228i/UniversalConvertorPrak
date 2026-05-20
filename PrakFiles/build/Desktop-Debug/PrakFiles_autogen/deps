@@ -1,5 +1,6 @@
 PrakFiles_autogen/timestamp: \
 	/home/vladimir/projects/UniversalConverter/PrakFiles/CMakeLists.txt \
+	/home/vladimir/projects/UniversalConverter/PrakFiles/Resouses.qrc \
 	/home/vladimir/projects/UniversalConverter/PrakFiles/baseconverter.cpp \
 	/home/vladimir/projects/UniversalConverter/PrakFiles/baseconverter.h \
 	/home/vladimir/projects/UniversalConverter/PrakFiles/baseformatter.cpp \

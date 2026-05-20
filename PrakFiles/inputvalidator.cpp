@@ -173,6 +173,7 @@ bool InputValidator::InputCheck(std::string input, double p, double q) {
             Correct = false;
             break;
         }
+        qDebug() << "InputValidator";
     }
     if (SquareOpen == true || PeriodOpen == true) {
         ShowError("Buckets cannot be unclosed");

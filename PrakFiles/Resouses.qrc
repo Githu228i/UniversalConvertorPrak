@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>png-transparent-arrow-encapsulated-postscript-computer-icons-both-side-angle-triangle-monochrome-thumbnail.png</file>
+    </qresource>
+</RCC>

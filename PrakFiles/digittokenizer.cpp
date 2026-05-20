@@ -1,5 +1,5 @@
 #include "digittokenizer.h"
-
+#include <QDebug>
 DigitTokenizer::DigitTokenizer() : memory(""), memory_start(0) {}
 
 std::string DigitTokenizer::CharToDigit(std::string input) {
@@ -45,5 +45,6 @@ std::string DigitTokenizer::CharToDigit(std::string input) {
         }
         memory = "";
     }
+    qDebug() << "Tokenizer";
     return input;
 }
