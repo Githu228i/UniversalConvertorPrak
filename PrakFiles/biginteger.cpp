@@ -124,7 +124,7 @@ BigInteger BigInteger::operator+(const BigInteger& other) const {
         if (i < other.value.size()) res.value[i] += other.value[i];
         res.value[i] += trans;
         trans = res.value[i] / BASE;
-        res.value[i] %= BASE;
+        res.value[i] = res.value[i] % BASE;
     }
     if (trans == 1) {
         res.value.push_back(1);
